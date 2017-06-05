@@ -4,3 +4,9 @@ c:\users\rzach\documents\visual studio 2017\Projects\Chapter 8 While Loops\Chapt
 c:\users\rzach\documents\visual studio 2017\Projects\Chapter 8 While Loops\Chapter 8 While Loops\obj\Debug\Chapter 8 While Loops.csprojResolveAssemblyReference.cache
 c:\users\rzach\documents\visual studio 2017\Projects\Chapter 8 While Loops\Chapter 8 While Loops\obj\Debug\Chapter 8 While Loops.exe
 c:\users\rzach\documents\visual studio 2017\Projects\Chapter 8 While Loops\Chapter 8 While Loops\obj\Debug\Chapter 8 While Loops.pdb
+C:\Users\rzach\Source\Repos\Csharp-Practice5\Chapter 8 While Loops\Chapter 8 While Loops\bin\Debug\Chapter 8 While Loops.exe.config
+C:\Users\rzach\Source\Repos\Csharp-Practice5\Chapter 8 While Loops\Chapter 8 While Loops\bin\Debug\Chapter 8 While Loops.exe
+C:\Users\rzach\Source\Repos\Csharp-Practice5\Chapter 8 While Loops\Chapter 8 While Loops\bin\Debug\Chapter 8 While Loops.pdb
+C:\Users\rzach\Source\Repos\Csharp-Practice5\Chapter 8 While Loops\Chapter 8 While Loops\obj\Debug\Chapter 8 While Loops.csprojResolveAssemblyReference.cache
+C:\Users\rzach\Source\Repos\Csharp-Practice5\Chapter 8 While Loops\Chapter 8 While Loops\obj\Debug\Chapter 8 While Loops.exe
+C:\Users\rzach\Source\Repos\Csharp-Practice5\Chapter 8 While Loops\Chapter 8 While Loops\obj\Debug\Chapter 8 While Loops.pdb

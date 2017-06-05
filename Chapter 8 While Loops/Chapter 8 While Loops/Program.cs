@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Chapter_8_While_Loops
+namespace ConsoleApp1
 {
     class Program
     {
@@ -12,17 +12,16 @@ namespace Chapter_8_While_Loops
         {
             int[] intArray01 = new int[] { 18, 42, 26, 44, 55 };
 
-            int loopCounter = 0;
-            int arrayLength = intArray01.Length;
+            int loopCounter = intArray01.Length - 1;
 
-            while (loopCounter < arrayLength)
+            while (loopCounter >= 0)
             {
                 Console.WriteLine("intArray01[{0}] = {1}", loopCounter, intArray01[loopCounter]);
-
-                loopCounter = loopCounter + 1;
-
+                loopCounter = loopCounter - 1;
             }
             Console.ReadKey();
+
         }
     }
 }
+
