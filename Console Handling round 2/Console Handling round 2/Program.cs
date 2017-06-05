@@ -34,6 +34,7 @@ namespace Console_Handling_round_2
             bool bSuccessfulConversion02 = false;
 
             // Console dialog and text entry prompts with variables assigned to hold values entered
+            data_entry:
             Console.Write("Please enter the first integer: ");
             sInt01 = Console.ReadLine();
             Console.Write("Please enter the second integer: ");
@@ -48,18 +49,21 @@ namespace Console_Handling_round_2
             //Simple if logic to test and make sure the values entered were integers
             // and that conversion occured
             // refactored to always tell you which input was not an integer.
-            //
+            // Presonally refactor to restart data entry if either or both entries are not integers
             if ((bSuccessfulConversion01 == false) && (bSuccessfulConversion02 == false))
             {
                 Console.WriteLine("Both entries are not integers");
+                goto data_entry;
             }
             else if (bSuccessfulConversion01 == false && bSuccessfulConversion02 == true)
             {
                 Console.WriteLine("The first entry is not an integer but the second entry is.");
+                goto data_entry;
             }
             else if (bSuccessfulConversion01 == true && bSuccessfulConversion02 == false)
             {
                 Console.WriteLine("The first entry is an integer but the second entry is not.");
+                goto data_entry;
             }
             else // else statement to combine the two integers and print out the result
             {
