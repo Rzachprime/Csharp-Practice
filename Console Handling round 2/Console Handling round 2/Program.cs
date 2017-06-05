@@ -70,6 +70,51 @@ namespace Console_Handling_round_2
                 iTotal = iInt01 + iInt02;
                 Console.WriteLine("Both are integers. The sum is {0}", iTotal);
             }
+
+            // string comparison exercise
+
+            // variables for strings
+            string s01, s02;
+            bool bComparisonValue;
+
+            // console dialog and variable assignments
+            Console.Write("Please enter the first string: ");
+            s01 = Console.ReadLine();
+
+            Console.Write("Please enter the second string: ");
+            s02 = Console.ReadLine();
+
+            //Comparison value generated
+            // refactored in second exercise
+            //bComparisonValue = String.Equals(s01, s02); // original answer
+            bComparisonValue = s01.Equals(s02);
+
+
+            // tell if the strings are the same or not
+            if (bComparisonValue == true)
+                Console.Write("The strings are the same!");
+            else
+                Console.Write("The strings are different!");
+
+            // next project is to print out the two user entered strings in alphabetical order
+
+            // some variables to hold values for checking order to print
+            int result;
+            bool ignorecase = true;
+            Console.WriteLine();
+            //set result to the value of string compare method
+            result = String.Compare(s01, s02, ignorecase);
+
+            // logic test for output values
+            if (result < 0)
+                Console.Write("{0} comes before {1} alphabetically", s01, s02);
+            else if (result > 0)
+                Console.Write("{0} comes before {1} alphabetically", s02, s01);
+            else
+                Console.Write("{0} and {1} are the same string", s01, s02);
+
+            
+
             Console.ReadKey(); // exits program on button press
         }
     }
