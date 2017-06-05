@@ -47,17 +47,19 @@ namespace Console_Handling_round_2
 
             //Simple if logic to test and make sure the values entered were integers
             // and that conversion occured
-            if ((bSuccessfulConversion01 == false) || (bSuccessfulConversion02 == false))
+            // refactored to always tell you which input was not an integer.
+            //
+            if ((bSuccessfulConversion01 == false) && (bSuccessfulConversion02 == false))
             {
-                if (bSuccessfulConversion01 == false)
-                {
-                    Console.WriteLine("The first entry is not an integer.");
-                }
-                if (bSuccessfulConversion02 == false)
-                {
-                    Console.WriteLine("The second entry is not and integer.");
-                }
-                Console.WriteLine("Cannot do the calculation for the reason(s) noted above.");
+                Console.WriteLine("Both entries are not integers");
+            }
+            else if (bSuccessfulConversion01 == false && bSuccessfulConversion02 == true)
+            {
+                Console.WriteLine("The first entry is not an integer but the second entry is.");
+            }
+            else if (bSuccessfulConversion01 == true && bSuccessfulConversion02 == false)
+            {
+                Console.WriteLine("The first entry is an integer but the second entry is not.");
             }
             else // else statement to combine the two integers and print out the result
             {
