@@ -57,6 +57,15 @@ namespace Foreach_Loops
             Console.WriteLine("For loop version of above exercise");
             for (int j = 0; j < intArray01.Length; j += 2)
                 Console.WriteLine("intArray[{0}] = {1}", j, intArray01[j]);
+            //Now doing the same with a while loop
+            Console.WriteLine("While loop even exercise below");
+            int counter = 0;
+            int arrayLength = intArray01.Length -1;
+            while (counter <= arrayLength)
+            {
+                Console.WriteLine("intArray01[{0}] = {1}", counter, intArray01[counter]);
+                counter = counter + 2;
+            }
             Console.ReadKey();
         }
     }
