@@ -1,0 +1,6 @@
+c:\users\rzach\documents\visual studio 2017\Projects\Chapter 8 While Loops\Chapter 8 While Loops\bin\Debug\Chapter 8 While Loops.exe.config
+c:\users\rzach\documents\visual studio 2017\Projects\Chapter 8 While Loops\Chapter 8 While Loops\bin\Debug\Chapter 8 While Loops.exe
+c:\users\rzach\documents\visual studio 2017\Projects\Chapter 8 While Loops\Chapter 8 While Loops\bin\Debug\Chapter 8 While Loops.pdb
+c:\users\rzach\documents\visual studio 2017\Projects\Chapter 8 While Loops\Chapter 8 While Loops\obj\Debug\Chapter 8 While Loops.csprojResolveAssemblyReference.cache
+c:\users\rzach\documents\visual studio 2017\Projects\Chapter 8 While Loops\Chapter 8 While Loops\obj\Debug\Chapter 8 While Loops.exe
+c:\users\rzach\documents\visual studio 2017\Projects\Chapter 8 While Loops\Chapter 8 While Loops\obj\Debug\Chapter 8 While Loops.pdb
