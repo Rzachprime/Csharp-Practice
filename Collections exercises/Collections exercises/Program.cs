@@ -10,11 +10,7 @@ namespace Collections_exercises
     {
         static void Main(string[] args)
         {
-            List<int> intList01 = new List<int>();
-            intList01.Add(10);
-            intList01.Add(20);
-            intList01.Add(30);
-            intList01.Add(40);
+            List<int> intList01 = new List<int>() { 10, 20, 30, 40 };
             Console.ReadKey();
         }
     }
